@@ -1,0 +1,28 @@
+.box1, .box2, .box3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.box1 {
+    background-color: red;
+    top: 100px;
+    left: 100px;
+    z-index: 1; /* Menor z-index */
+}
+
+.box2 {
+    background-color: green;
+    top: 150px;
+    left: 150px;
+    z-index: 3; /* Maior z-index */
+}
+
+.box3 {
+    background-color: blue;
+    top: 200px;
+    left: 200px;
+    z-index: 2; /* Valor intermediário */
+}
